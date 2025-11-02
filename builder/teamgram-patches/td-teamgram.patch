@@ -1,0 +1,46 @@
+diff --git a/td/td/telegram/net/ConnectionCreator.cpp b/td/td/telegram/net/ConnectionCreator.cpp
+index 7c63f43f5..8dc6abc85 100644
+--- a/td/td/telegram/net/ConnectionCreator.cpp
++++ b/td/td/telegram/net/ConnectionCreator.cpp
+@@ -1365,11 +1365,8 @@ void ConnectionCreator::add_dc_options(int32 dc_id, const vector<DcOption> &opti
+   }
+ #else
+   if (is_test) {
+-    add_ip_ports(1, {"149.154.175.10"}, ports);
+-    add_ip_ports(2, {"149.154.167.40"}, ports);
+-    add_ip_ports(3, {"149.154.175.117"}, ports);
+-
+-    add_ip_ports(1, {"2001:b28:f23d:f001::e"}, ports, HostType::IPv6);
+-    add_ip_ports(2, {"2001:67c:4e8:f002::e"}, ports, HostType::IPv6);
+-    add_ip_ports(3, {"2001:b28:f23d:f003::e"}, ports, HostType::IPv6);
++    // Teamgram local server
++    add_ip_ports(1, {"127.0.0.1"}, {10443});
+   } else {
+     add_ip_ports(1, {"149.154.175.50"}, ports);
+     add_ip_ports(2, {"149.154.167.51", "95.161.76.100"}, ports);
+diff --git a/td/td/telegram/net/PublicRsaKeySharedMain.cpp b/td/td/telegram/net/PublicRsaKeySharedMain.cpp
+index b7117ceb4..e0d087a71 100644
+--- a/td/td/telegram/net/PublicRsaKeySharedMain.cpp
++++ b/td/td/telegram/net/PublicRsaKeySharedMain.cpp
+@@ -21,6 +21,7 @@ std::shared_ptr<PublicRsaKeySharedMain> PublicRsaKeySharedMain::create(bool is_t
+   if (is_test) {
+     static auto test_public_rsa_key = [&] {
+       vector<RsaKey> keys;
++      // Teamgram server public key (fingerprint: 12240908862933197005)
+       add_pem(keys,
+               "-----BEGIN RSA PUBLIC KEY-----\n"
+-              "MIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIR\n"
+-              "yy7mx66W0/sOFa7/1mAZtEoIokDP3ShoqF4fVNb6XeqgQfaUHd8wJpDWHcR2OFwv\n"
+-              "plUUI1PLTktZ9uW2WE23b+ixNwJjJGwBDJPQEQFBE+vfmH0JP503wr5INS1poWg/\n"
+-              "j25sIWeYPHYeOrFp/eXaqhISP6G+q2IeTaWTXpwZj4LzXq5YOpk4bYEQ6mvRq7D1\n"
+-              "aHWfYmlEGepfaYR8Q0YqvvhYtMte3ITnuSJs171+GDqpdKcSwHnd6FudwGO4pcCO\n"
+-              "j4WcDuXc2CTHgH8gFTNhp/Y8/SpDOhvn9QIDAQAB\n"
++              "MIIBCgKCAQEAvKLEOWTzt9Hn3/9Kdp/RdHcEhzmd8xXeLSpHIIzaXTLJDw8BhJy1\n"
++              "jR/iqeG8Je5yrtVabqMSkA6ltIpgylH///FojMsX1BHu4EPYOXQgB0qOi6kr08iX\n"
++              "ZIH9/iOPQOWDsL+Lt8gDG0xBy+sPe/2ZHdzKMjX6O9B4sOsxjFrk5qDoWDrioJor\n"
++              "AJ7eFAfPpOBf2w73ohXudSrJE0lbQ8pCWNpMY8cB9i8r+WBitcvouLDAvmtnTX7a\n"
++              "khoDzmKgpJBYliAY4qA73v7u5UIepE8QgV0jCOhxJCPubP8dg+/PlLLVKyxU5Cdi\n"
++              "QtZj2EMy4s9xlNKzX8XezE0MHEa6bQpnFwIDAQAB\n"
+               "-----END RSA PUBLIC KEY-----");
+       return std::make_shared<PublicRsaKeySharedMain>(std::move(keys));
+     }();

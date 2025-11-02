@@ -8,3 +8,7 @@ builder/build
 xcuserdata/
 DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Test executables
+test_teamgram
+test_teamgram_auth
