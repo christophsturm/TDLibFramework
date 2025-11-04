@@ -1,0 +1,1044 @@
+[09:42:38] Platform: iOS
+[09:42:38] Resetting td submodule
+HEAD is now at 0ca38f15c Fix field spelling.
+Removing example/ios/third_party/
+Removing td/telegram/td_json_client.h.bak
+Removing td/telegram/td_log.h.bak
+[09:42:38] Applying patches
+/Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/tdlib-patches/Python-Apple-Support-patch.patch:26: trailing whitespace.
+ 
+warning: 1 line adds whitespace errors.
+[09:42:38] Building OpenSSL
+fatal: destination path 'Python-Apple-support' already exists and is not an empty directory.
+HEAD is now at 6f43aba Merge pull request #183 from afh/fix-sourceforge-download
+M	Makefile
+HEAD is now at 6f43aba Merge pull request #183 from afh/fix-sourceforge-download
+iOS
+make: Nothing to be done for `OpenSSL-iOS'.
+[09:42:39] Preparing TDLib build script
+[09:42:39] Building TDLib
+Platform = iOS
+iOS platform = OS. Minimum OS version 12.0
+OpenSSL path = /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS
+ccache available, setting compiler options. Don't trust what cmake says, caching will work. https://t.me/tdlibchat/108338
+-- Toolchain using default iOS SDK: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk
+-- The iOS architectures: arm64
+-- The iOS architectures: arm64
+-- The CXX compiler identification is AppleClang 17.0.0.17000319
+-- The C compiler identification is AppleClang 17.0.0.17000319
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Could NOT find ccache (this is NOT an error)
+-- Found OpenSSL: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS/include /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS/lib/libcrypto.a;/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS/lib/libssl.a
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STD17
+-- Performing Test HAVE_STD17 - Success
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WIMPLICIT_FALLTHROUGH_2
+-- Performing Test HAVE_CXX_FLAG_WIMPLICIT_FALLTHROUGH_2 - Failed
+-- Performing Test HAVE_CXX_FLAG_WPOINTER_ARITH
+-- Performing Test HAVE_CXX_FLAG_WPOINTER_ARITH - Success
+-- Performing Test HAVE_CXX_FLAG_WCAST_QUAL
+-- Performing Test HAVE_CXX_FLAG_WCAST_QUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WSIGN_COMPARE
+-- Performing Test HAVE_CXX_FLAG_WSIGN_COMPARE - Success
+-- Performing Test HAVE_CXX_FLAG_WDUPLICATED_BRANCHES
+-- Performing Test HAVE_CXX_FLAG_WDUPLICATED_BRANCHES - Failed
+-- Performing Test HAVE_CXX_FLAG_WDUPLICATED_COND
+-- Performing Test HAVE_CXX_FLAG_WDUPLICATED_COND - Failed
+-- Performing Test HAVE_CXX_FLAG_WALLOC_ZERO
+-- Performing Test HAVE_CXX_FLAG_WALLOC_ZERO - Failed
+-- Performing Test HAVE_CXX_FLAG_WLOGICAL_OP
+-- Performing Test HAVE_CXX_FLAG_WLOGICAL_OP - Failed
+-- Performing Test HAVE_CXX_FLAG_WTAUTOLOGICAL_COMPARE
+-- Performing Test HAVE_CXX_FLAG_WTAUTOLOGICAL_COMPARE - Success
+-- Performing Test HAVE_CXX_FLAG_WVLA
+-- Performing Test HAVE_CXX_FLAG_WVLA - Success
+-- Performing Test HAVE_CXX_FLAG_WNON_VIRTUAL_DTOR
+-- Performing Test HAVE_CXX_FLAG_WNON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_PARAMETER
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_PARAMETER - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WSIGN_CONVERSION
+-- Performing Test HAVE_CXX_FLAG_WSIGN_CONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WCXX17_COMPAT_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_WCXX17_COMPAT_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_WDEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WDEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_COMMAND_LINE_ARGUMENT
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_COMMAND_LINE_ARGUMENT - Success
+-- Performing Test HAVE_CXX_FLAG_QUNUSED_ARGUMENTS
+-- Performing Test HAVE_CXX_FLAG_QUNUSED_ARGUMENTS - Success
+-- Performing Test HAVE_CXX_FLAG_WUNKNOWN_WARNING_OPTION
+-- Performing Test HAVE_CXX_FLAG_WUNKNOWN_WARNING_OPTION - Success
+-- Performing Test HAVE_CXX_FLAG_WODR
+-- Performing Test HAVE_CXX_FLAG_WODR - Success
+-- Performing Test HAVE_CXX_FLAG_FLTO_ODR_TYPE_MERGING
+-- Performing Test HAVE_CXX_FLAG_FLTO_ODR_TYPE_MERGING - Failed
+-- Performing Test HAVE_CXX_FLAG_WPSABI
+-- Performing Test HAVE_CXX_FLAG_WPSABI - Success
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_MEMBER_FUNCTION
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_MEMBER_FUNCTION - Success
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_PRIVATE_FIELD
+-- Performing Test HAVE_CXX_FLAG_WUNUSED_PRIVATE_FIELD - Success
+-- Git state: 
+-- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/usr/include /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/usr/lib/libz.tbd
+-- Performing Test ATOMICS_FOUND
+-- Performing Test ATOMICS_FOUND - Success
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done (3.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/build-iOS
+[  0%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_config.cpp.o
+[  0%] Building C object sqlite/CMakeFiles/tdsqlite.dir/sqlite/sqlite3.c.o
+[  0%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/Clocks.cpp.o
+/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/sqlite/sqlite/sqlite3.c:37517:8: warning: "gethostuuid() is disabled." [-W#warnings]
+ 37517 | #      warning "gethostuuid() is disabled."
+       |        ^
+1 warning generated.
+[  0%] Linking C static library libtdsqlite.a
+[  0%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_core.cpp.o
+[  0%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/FileFd.cpp.o
+[  1%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/IPAddress.cpp.o
+[  1%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_file_outputer.cpp.o
+[  1%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_file_utils.cpp.o
+[  2%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/MemoryMapping.cpp.o
+[  2%] Built target tdsqlite
+[  2%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/path.cpp.o
+[  2%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_generate.cpp.o
+[  2%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_outputer.cpp.o
+[  2%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/platform.cpp.o
+[  2%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/PollFlags.cpp.o
+[  2%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_string_outputer.cpp.o
+[  2%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/rlimit.cpp.o
+[  4%] Building CXX object tdtl/CMakeFiles/tdtl.dir/td/tl/tl_writer.cpp.o
+[  4%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/ServerSocketFd.cpp.o
+[  4%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/signals.cpp.o
+[  4%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/sleep.cpp.o
+[  4%] Linking CXX static library libtdtl.a
+[  4%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/SocketFd.cpp.o
+[  4%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/stacktrace.cpp.o
+[  5%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/Stat.cpp.o
+[  5%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/StdStreams.cpp.o
+[  5%] Built target tdtl
+[  5%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/thread_local.cpp.o
+[  5%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/UdpSocketFd.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/uname.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/user.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/wstring_convert.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/EventFdBsd.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/EventFdLinux.cpp.o
+[  6%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/Epoll.cpp.o
+[  7%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/Iocp.cpp.o
+[  7%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/EventFdWindows.cpp.o
+[  7%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/KQueue.cpp.o
+[  7%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/Poll.cpp.o
+[  7%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/NativeFd.cpp.o
+[  8%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/Select.cpp.o
+[  8%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/ThreadIdGuard.cpp.o
+[  8%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/ThreadPthread.cpp.o
+[  8%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/port/detail/WineventPoll.cpp.o
+[  8%] Building CXX object tdutils/CMakeFiles/tdutils.dir/generate/auto/mime_type_to_extension.cpp.o
+[  9%] Building CXX object tdutils/CMakeFiles/tdutils.dir/generate/auto/extension_to_mime_type.cpp.o
+[  9%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/AsyncFileLog.cpp.o
+[  9%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/base64.cpp.o
+[  9%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/BigNum.cpp.o
+[  9%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/buffer.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/BufferedUdp.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/check.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Ed25519.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/crypto.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/emoji.cpp.o
+[ 10%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/FileLog.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/ExitGuard.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/filesystem.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/find_boundary.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/FlatHashTable.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/GzipByteFlow.cpp.o
+[ 11%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Gzip.cpp.o
+[ 12%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/FloodControlGlobal.cpp.o
+[ 12%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Hints.cpp.o
+[ 12%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/HttpDate.cpp.o
+[ 13%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/HttpUrl.cpp.o
+[ 13%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/JsonBuilder.cpp.o
+[ 13%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/logging.cpp.o
+[ 13%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/misc.cpp.o
+[ 13%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/MpmcQueue.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/PathView.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/OptionParser.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/SharedSlice.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Slice.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Random.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Status.cpp.o
+[ 14%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/StringBuilder.cpp.o
+[ 15%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/StackAllocator.cpp.o
+[ 15%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/tests.cpp.o
+[ 15%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Time.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/Timer.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/tl_parsers.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/TsCerr.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/translit.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/TsFileLog.cpp.o
+[ 16%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/unicode.cpp.o
+[ 17%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/TsLog.cpp.o
+[ 17%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/MimeType.cpp.o
+[ 17%] Building CXX object tdutils/CMakeFiles/tdutils.dir/td/utils/utf8.cpp.o
+[ 17%] Linking CXX static library libtdutils.a
+[ 17%] Built target tdutils
+[ 17%] Building CXX object CMakeFiles/memprof.dir/memprof/memprof.cpp.o
+[ 17%] Building CXX object tdactor/CMakeFiles/tdactor.dir/td/actor/ConcurrentScheduler.cpp.o
+[ 17%] Building CXX object CMakeFiles/tdapi.dir/td/generate/auto/td/telegram/td_api.cpp.o
+[ 17%] Linking CXX static library libmemprof.a
+[ 18%] Building CXX object tdactor/CMakeFiles/tdactor.dir/td/actor/impl/Scheduler.cpp.o
+[ 19%] Linking CXX static library libtdapi.a
+[ 19%] Building CXX object tdactor/CMakeFiles/tdactor.dir/td/actor/MultiPromise.cpp.o
+[ 19%] Built target memprof
+[ 19%] Building CXX object tdactor/CMakeFiles/tdactor.dir/td/actor/MultiTimeout.cpp.o
+[ 19%] Built target tdapi
+[ 19%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/bip39.cpp.o
+[ 19%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/BitString.cpp.o
+[ 19%] Linking CXX static library libtdactor.a
+[ 19%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/Call.cpp.o
+[ 20%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/Blockchain.cpp.o
+[ 20%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/DecryptedKey.cpp.o
+[ 20%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/CheckSharedSecret.cpp.o
+[ 20%] Built target tdactor
+[ 20%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/e2e_api.cpp.o
+[ 21%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/EncryptedKey.cpp.o
+[ 21%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/EncryptedStorage.cpp.o
+[ 21%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/GetHostByNameActor.cpp.o
+[ 21%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/Keys.cpp.o
+[ 22%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/MessageEncryption.cpp.o
+[ 22%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpChunkedByteFlow.cpp.o
+[ 22%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/Mnemonic.cpp.o
+[ 23%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpConnectionBase.cpp.o
+[ 23%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/QRHandshake.cpp.o
+[ 23%] Building CXX object tde2e/CMakeFiles/tde2e.dir/td/e2e/Trie.cpp.o
+[ 23%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpContentLengthByteFlow.cpp.o
+[ 23%] Building CXX object tde2e/CMakeFiles/tde2e.dir/__/td/generate/auto/td/telegram/e2e_api.cpp.o
+[ 24%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/binlog/Binlog.cpp.o
+[ 24%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpFile.cpp.o
+[ 24%] Linking CXX static library libtde2e.a
+[ 24%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/binlog/BinlogEvent.cpp.o
+[ 24%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpInboundConnection.cpp.o
+[ 24%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/binlog/ConcurrentBinlog.cpp.o
+[ 25%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpOutboundConnection.cpp.o
+[ 25%] Built target tde2e
+[ 25%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/binlog/detail/BinlogEventsBuffer.cpp.o
+[ 25%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpProxy.cpp.o
+[ 25%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpQuery.cpp.o
+[ 25%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/binlog/detail/BinlogEventsProcessor.cpp.o
+[ 25%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/HttpReader.cpp.o
+[ 26%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/detail/RawSqliteDb.cpp.o
+[ 26%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/SqliteConnectionSafe.cpp.o
+[ 26%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/Socks5.cpp.o
+[ 26%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/SqliteDb.cpp.o
+[ 27%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/SqliteKeyValue.cpp.o
+[ 27%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/SslCtx.cpp.o
+[ 27%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/SqliteKeyValueAsync.cpp.o
+[ 28%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/SslStream.cpp.o
+[ 28%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/TQueue.cpp.o
+[ 28%] Building CXX object tddb/CMakeFiles/tddb.dir/td/db/SqliteStatement.cpp.o
+[ 28%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/TcpListener.cpp.o
+[ 28%] Linking CXX static library libtddb.a
+[ 28%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/TransparentProxy.cpp.o
+[ 28%] Building CXX object tdnet/CMakeFiles/tdnet.dir/td/net/Wget.cpp.o
+[ 29%] Linking CXX static library libtdnet.a
+[ 29%] Built target tddb
+[ 29%] Built target tdnet
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/ConnectionManager.cpp.o
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/AuthData.cpp.o
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/DhHandshake.cpp.o
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/HandshakeActor.cpp.o
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/HttpTransport.cpp.o
+[ 30%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/Handshake.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/IStreamTransport.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/KDF.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/Ping.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/PingConnection.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/ProxySecret.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/RawConnection.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/SessionConnection.cpp.o
+[ 31%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/TcpTransport.cpp.o
+[ 32%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/RSA.cpp.o
+[ 32%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/TlsInit.cpp.o
+[ 32%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/TlsReaderByteFlow.cpp.o
+[ 33%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/Transport.cpp.o
+[ 33%] Building CXX object CMakeFiles/tdmtproto.dir/td/mtproto/utils.cpp.o
+[ 33%] Building CXX object CMakeFiles/tdmtproto.dir/td/generate/auto/td/mtproto/mtproto_api.cpp.o
+[ 33%] Linking CXX static library libtdmtproto.a
+[ 33%] Built target tdmtproto
+[ 33%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AccountManager.cpp.o
+[ 33%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AffiliateType.cpp.o
+[ 33%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AlarmManager.cpp.o
+[ 34%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AnimationsManager.cpp.o
+[ 34%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Application.cpp.o
+[ 34%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AttachMenuManager.cpp.o
+[ 34%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AuthManager.cpp.o
+[ 34%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AudiosManager.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AutoDownloadSettings.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/AutosaveManager.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BackgroundInfo.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BackgroundManager.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Birthdate.cpp.o
+[ 35%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BackgroundType.cpp.o
+[ 36%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BaseTheme.cpp.o
+[ 36%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BoostManager.cpp.o
+[ 36%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotCommand.cpp.o
+[ 36%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotCommandScope.cpp.o
+[ 36%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotMenuButton.cpp.o
+[ 37%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotInfoManager.cpp.o
+[ 37%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotQueries.cpp.o
+[ 37%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotRecommendationManager.cpp.o
+[ 37%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotVerification.cpp.o
+[ 38%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BotVerifierSettings.cpp.o
+[ 38%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessAwayMessage.cpp.o
+[ 38%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessAwayMessageSchedule.cpp.o
+[ 38%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessBotManageBar.cpp.o
+[ 38%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessBotRights.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessChatLink.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessConnectedBot.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessConnectionManager.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessGreetingMessage.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessInfo.cpp.o
+[ 39%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessManager.cpp.o
+[ 40%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessRecipients.cpp.o
+[ 40%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessIntro.cpp.o
+[ 40%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/BusinessWorkHours.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CallActor.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CallbackQueriesManager.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CallDiscardReason.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CallManager.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ChannelParticipantFilter.cpp.o
+[ 41%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ChannelRecommendationManager.cpp.o
+[ 42%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ChatManager.cpp.o
+[ 42%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ChatReactions.cpp.o
+[ 42%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ClientActor.cpp.o
+[ 42%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CommonDialogManager.cpp.o
+[ 42%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ConfigManager.cpp.o
+[ 43%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ConnectionState.cpp.o
+[ 43%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ConnectionStateManager.cpp.o
+[ 43%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Contact.cpp.o
+[ 43%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/CountryInfoManager.cpp.o
+[ 43%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DelayDispatcher.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Dependencies.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DeviceTokenManager.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DhCache.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogAction.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogAdministrator.cpp.o
+[ 44%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogActionBar.cpp.o
+[ 45%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogActionManager.cpp.o
+[ 45%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogDb.cpp.o
+[ 45%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogEventLog.cpp.o
+[ 45%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogFilter.cpp.o
+[ 46%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogFilterInviteLink.cpp.o
+[ 46%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogFilterManager.cpp.o
+[ 46%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogId.cpp.o
+[ 46%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogInviteLink.cpp.o
+[ 46%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogInviteLinkManager.cpp.o
+[ 47%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogLocation.cpp.o
+[ 47%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogManager.cpp.o
+[ 47%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogNotificationSettings.cpp.o
+[ 47%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogParticipant.cpp.o
+[ 47%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogParticipantFilter.cpp.o
+[ 48%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogParticipantManager.cpp.o
+[ 48%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DialogSource.cpp.o
+[ 48%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DisallowedGiftsSettings.cpp.o
+[ 48%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Dimensions.cpp.o
+[ 48%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Document.cpp.o
+[ 50%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DocumentsManager.cpp.o
+[ 50%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DownloadManager.cpp.o
+[ 50%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DownloadManagerCallback.cpp.o
+[ 50%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/DraftMessage.cpp.o
+[ 50%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/EmailVerification.cpp.o
+[ 51%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/EmojiGroup.cpp.o
+[ 51%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/EmojiGroupType.cpp.o
+[ 51%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/EmojiStatus.cpp.o
+[ 51%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/FactCheck.cpp.o
+[ 51%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/FileReferenceManager.cpp.o
+[ 52%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileBitmask.cpp.o
+[ 52%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileDb.cpp.o
+[ 52%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileDownloader.cpp.o
+[ 52%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileDownloadManager.cpp.o
+[ 52%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileEncryptionKey.cpp.o
+[ 53%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileFromBytes.cpp.o
+[ 53%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileGcParameters.cpp.o
+[ 53%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileGcWorker.cpp.o
+[ 53%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileGenerateManager.cpp.o
+[ 53%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileHashUploader.cpp.o
+[ 54%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileLoaderUtils.cpp.o
+[ 54%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileManager.cpp.o
+[ 54%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileLoadManager.cpp.o
+[ 54%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileStats.cpp.o
+[ 54%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileUploader.cpp.o
+[ 55%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileType.cpp.o
+[ 55%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileStatsWorker.cpp.o
+[ 55%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/PartsManager.cpp.o
+[ 55%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/FileUploadManager.cpp.o
+[ 55%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/ResourceManager.cpp.o
+[ 56%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ForumTopic.cpp.o
+[ 56%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/files/ResourceState.cpp.o
+[ 56%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ForumTopicEditedData.cpp.o
+[ 56%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ForumTopicIcon.cpp.o
+[ 56%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ForumTopicInfo.cpp.o
+[ 57%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ForumTopicManager.cpp.o
+[ 57%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Game.cpp.o
+[ 57%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GameManager.cpp.o
+[ 57%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GiveawayParameters.cpp.o
+[ 57%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Global.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GlobalPrivacySettings.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GroupCallManager.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GroupCallParticipant.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GroupCallParticipantOrder.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GroupCallVideoPayload.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InlineQueriesManager.cpp.o
+[ 58%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InlineMessageManager.cpp.o
+[ 59%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/HashtagHints.cpp.o
+[ 59%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InputBusinessChatLink.cpp.o
+[ 59%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InputDialogId.cpp.o
+[ 60%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InputGroupCallId.cpp.o
+[ 60%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InputInvoice.cpp.o
+[ 60%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/InputMessageText.cpp.o
+[ 60%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/JsonValue.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/LanguagePackManager.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/LinkManager.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Location.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/logevent/LogEventHelper.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Logging.cpp.o
+[ 61%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MediaArea.cpp.o
+[ 62%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageContent.cpp.o
+[ 62%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MediaAreaCoordinates.cpp.o
+[ 62%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageContentType.cpp.o
+[ 62%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageEntity.cpp.o
+[ 62%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageDb.cpp.o
+[ 63%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageExtendedMedia.cpp.o
+[ 63%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageId.cpp.o
+[ 63%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageForwardInfo.cpp.o
+[ 63%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageImportManager.cpp.o
+[ 63%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageInputReplyTo.cpp.o
+[ 64%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageQueryManager.cpp.o
+[ 64%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageOrigin.cpp.o
+[ 64%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageQuote.cpp.o
+[ 64%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageReaction.cpp.o
+[ 64%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageReactor.cpp.o
+[ 65%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageReplyHeader.cpp.o
+[ 65%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageReplyInfo.cpp.o
+[ 65%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageSearchFilter.cpp.o
+[ 65%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageSearchOffset.cpp.o
+[ 65%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageSelfDestructType.cpp.o
+[ 66%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageSender.cpp.o
+[ 66%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessagesInfo.cpp.o
+[ 66%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessagesManager.cpp.o
+[ 66%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageSource.cpp.o
+[ 66%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageThreadDb.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageTtl.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MessageViewer.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/MissingInvitee.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/misc.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/AuthDataShared.cpp.o
+[ 67%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/DcAuthManager.cpp.o
+[ 68%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/ConnectionCreator.cpp.o
+[ 68%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/DcOptionsSet.cpp.o
+[ 68%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetActor.cpp.o
+[ 68%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/MtprotoHeader.cpp.o
+[ 69%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQuery.cpp.o
+[ 69%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQueryDelayer.cpp.o
+[ 69%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQueryCreator.cpp.o
+[ 69%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQueryDispatcher.cpp.o
+[ 69%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQueryStats.cpp.o
+[ 70%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetQueryVerifier.cpp.o
+[ 70%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/NetStatsManager.cpp.o
+[ 70%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/Proxy.cpp.o
+[ 70%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/PublicRsaKeySharedCdn.cpp.o
+[ 70%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/PublicRsaKeySharedMain.cpp.o
+[ 71%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/Session.cpp.o
+[ 71%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/PublicRsaKeyWatchdog.cpp.o
+[ 71%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/SessionMultiProxy.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/net/SessionProxy.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NewPasswordState.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationGroupInfo.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationSettingsManager.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationManager.cpp.o
+[ 72%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationGroupType.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationSettingsScope.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationSound.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/NotificationType.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/OnlineManager.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/OptionManager.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/OrderedMessage.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PaidReactionType.cpp.o
+[ 73%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Outline.cpp.o
+[ 74%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/OrderInfo.cpp.o
+[ 74%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Payments.cpp.o
+[ 74%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PasswordManager.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PeerColor.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PhoneNumberManager.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PeopleNearbyManager.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Photo.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PollManager.cpp.o
+[ 75%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PhotoSize.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PhotoSizeSource.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Premium.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PremiumGiftOption.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PrivacyManager.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/QueryMerger.cpp.o
+[ 76%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/QueryCombiner.cpp.o
+[ 77%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/PromoDataManager.cpp.o
+[ 77%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReactionListType.cpp.o
+[ 77%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/QuickReplyManager.cpp.o
+[ 78%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReactionManager.cpp.o
+[ 78%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReactionNotificationSettings.cpp.o
+[ 78%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReactionNotificationsFrom.cpp.o
+[ 78%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReactionType.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/RecentDialogList.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReferralProgramInfo.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReferralProgramManager.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReferralProgramSortOrder.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReferralProgramParameters.cpp.o
+[ 79%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/RepliedMessageInfo.cpp.o
+[ 80%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReplyMarkup.cpp.o
+[ 80%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ReportReason.cpp.o
+[ 80%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/RequestedDialogType.cpp.o
+[ 80%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/RestrictionReason.cpp.o
+[ 80%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Requests.cpp.o
+[ 81%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SavedMessagesManager.cpp.o
+[ 81%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SavedMessagesTopicId.cpp.o
+[ 81%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ScopeNotificationSettings.cpp.o
+[ 81%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecretChatActor.cpp.o
+[ 81%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecretChatDb.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecretChatsManager.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecretInputMedia.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecureManager.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecureStorage.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SecureValue.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SentEmailCode.cpp.o
+[ 82%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SequenceDispatcher.cpp.o
+[ 83%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SendCodeHelper.cpp.o
+[ 83%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SpecialStickerSetType.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SponsoredMessageManager.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SharedDialog.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarAmount.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarGift.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarGiftAttribute.cpp.o
+[ 84%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarGiftId.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarGiftManager.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarGiftSettings.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarManager.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarSubscription.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StarSubscriptionPricing.cpp.o
+[ 85%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StatisticsManager.cpp.o
+[ 86%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StateManager.cpp.o
+[ 86%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerFormat.cpp.o
+[ 86%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerMaskPosition.cpp.o
+[ 86%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerListType.cpp.o
+[ 87%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerPhotoSize.cpp.o
+[ 87%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerSetId.cpp.o
+[ 87%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickersManager.cpp.o
+[ 87%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StickerType.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StorageManager.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryContent.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryContentType.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryForwardInfo.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryDb.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryInteractionInfo.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryViewer.cpp.o
+[ 88%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryStealthMode.cpp.o
+[ 89%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/StoryManager.cpp.o
+[ 89%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SuggestedAction.cpp.o
+[ 89%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SuggestedActionManager.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Support.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Td.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/SynchronousRequests.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TargetDialogTypes.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TdDb.cpp.o
+[ 90%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TermsOfServiceManager.cpp.o
+[ 91%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TermsOfService.cpp.o
+[ 91%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TimeZoneManager.cpp.o
+[ 91%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ThemeManager.cpp.o
+[ 91%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/ThemeSettings.cpp.o
+[ 91%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TopDialogManager.cpp.o
+[ 92%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TopDialogCategory.cpp.o
+[ 92%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TranscriptionInfo.cpp.o
+[ 92%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TranslationManager.cpp.o
+[ 92%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/TranscriptionManager.cpp.o
+[ 93%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/UpdatesManager.cpp.o
+[ 93%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Usernames.cpp.o
+[ 93%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/UserManager.cpp.o
+[ 93%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/UserPrivacySetting.cpp.o
+[ 93%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/UserPrivacySettingRule.cpp.o
+[ 94%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/UserStarGift.cpp.o
+[ 94%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/Venue.cpp.o
+[ 94%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/VerificationStatus.cpp.o
+[ 94%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/VideoNotesManager.cpp.o
+[ 94%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/VideosManager.cpp.o
+[ 95%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/VoiceNotesManager.cpp.o
+[ 95%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/WebApp.cpp.o
+[ 95%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/WebAppManager.cpp.o
+[ 95%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/WebAppOpenParameters.cpp.o
+[ 95%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/WebPageBlock.cpp.o
+[ 96%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/WebPagesManager.cpp.o
+/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/td/telegram/WebPagesManager.cpp:1126:77: warning: lambda capture 'only_local' is not used [-Wunused-lambda-capture]
+ 1126 |             PromiseCreator::lambda([actor_id = actor_id(this), web_page_id, only_local](string value) {
+      |                                                                           ~~^~~~~~~~~~
+1 warning generated.
+[ 96%] Building CXX object CMakeFiles/tdcore.dir/td/generate/auto/td/telegram/telegram_api.cpp.o
+[ 96%] Building CXX object CMakeFiles/tdcore.dir/td/generate/auto/td/telegram/secret_api.cpp.o
+[ 96%] Building CXX object CMakeFiles/tdcore.dir/td/telegram/GitCommitHash.cpp.o
+[ 96%] Linking CXX static library libtdcore.a
+[ 96%] Built target tdcore
+[ 96%] Building CXX object CMakeFiles/tdclient.dir/td/telegram/Client.cpp.o
+[ 97%] Building CXX object CMakeFiles/tdclient.dir/td/telegram/Log.cpp.o
+[ 97%] Linking CXX static library libtdclient.a
+[ 97%] Built target tdclient
+[ 97%] Building CXX object CMakeFiles/tdjson_private.dir/td/generate/auto/td/telegram/td_api_json.cpp.o
+[ 97%] Building CXX object CMakeFiles/tdjson_private.dir/td/telegram/ClientJson.cpp.o
+[ 97%] Linking CXX static library libtdjson_private.a
+[ 97%] Built target tdjson_private
+[ 98%] Building CXX object CMakeFiles/tdjson_static.dir/td/telegram/td_json_client.cpp.o
+[ 98%] Building CXX object CMakeFiles/tdjson.dir/td/telegram/td_json_client.cpp.o
+[100%] Building CXX object CMakeFiles/tdjson.dir/td/telegram/td_log.cpp.o
+[100%] Linking CXX shared library libtdjson.dylib
+[100%] Building CXX object CMakeFiles/tdjson_static.dir/td/telegram/td_log.cpp.o
+[100%] Linking CXX static library libtdjson_static.a
+[100%] Built target tdjson_static
+[100%] Built target tdjson
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdjson.1.8.47.dylib
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdjson.dylib
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdjson_static.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdjson_private.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdcore.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdmtproto.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdclient.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdapi.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdutils.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdactor.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tde2e.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdnet.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdsqlite.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tddb.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdmtproto.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdcore.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdclient.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdapi.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdjson_private.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdjson_static.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/pkgconfig/tdjson.pc
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdTargets.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdTargets-release.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdStaticTargets.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdStaticTargets-release.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/td_json_client.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/td_log.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/tdjson_export.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/Client.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/Log.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/tl/TlObject.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/td_api.h
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/td_api.hpp
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdConfig.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/cmake/Td/TdConfigVersion.cmake
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdutils.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdactor.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdnet.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtdsqlite.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtddb.a
+-- Installing: /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib/libtde2e.a
+[09:42:48] Patching headers
+[09:42:48] Generating Xcode project with Tuist
+Loading and constructing the graph
+It might take a while if the cache is empty
+/Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/Project.swift: 
+Generating project for platforms ["iOS"]
+TD version: 1.8.47-0ca38f15
+Using cache binaries for the following targets: 
+Generating workspace TDLibFramework.xcworkspace
+Generating project TDLibFramework
+Project generated.
+Total time taken: 0.617s
+[09:42:48] Building xcframework
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -scheme iOS -archivePath ./build/iOS.xcarchive -configuration Release -sdk iphoneos SKIP_INSTALL=NO
+
+Build settings from command line:
+    SDKROOT = iphoneos26.0
+    SKIP_INSTALL = NO
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS, arch:arm64, id:00008140-000875EE223B001C, name:Sturmifon }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00006041-0018510C3420801C, name:My Mac }
+{ platform:iOS Simulator, arch:arm64, id:67C4141D-880E-41AD-880E-624CA08B5F0A, OS:17.0, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:67C4141D-880E-41AD-880E-624CA08B5F0A, OS:17.0, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:77BAB3EF-79BD-46B6-9AF5-5C249ED95F3E, OS:17.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:77BAB3EF-79BD-46B6-9AF5-5C249ED95F3E, OS:17.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:32100797-E83E-4B9E-8778-AF40F30C0454, OS:17.4, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:32100797-E83E-4B9E-8778-AF40F30C0454, OS:17.4, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:DD5D8177-893F-4B8D-8D90-78219B0900EA, OS:17.5, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:DD5D8177-893F-4B8D-8D90-78219B0900EA, OS:17.5, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:A14783D9-DA24-4C8C-AB52-061133F002B3, OS:18.1, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:A14783D9-DA24-4C8C-AB52-061133F002B3, OS:18.1, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:1F691C63-C0A3-47B9-AB4A-B9A21F306550, OS:18.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:1F691C63-C0A3-47B9-AB4A-B9A21F306550, OS:18.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:5BEB9EF8-F3A5-4352-9040-AE9F19E9E3F9, OS:18.5, name:iPad (A16) }
+{ platform:iOS Simulator, arch:x86_64, id:5BEB9EF8-F3A5-4352-9040-AE9F19E9E3F9, OS:18.5, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:F96D9A36-FA69-43ED-AFA0-8AC1BC8B833F, OS:26.0, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:2EDDD50A-C6AB-40BD-97F2-4C92E0FD7C47, OS:17.0, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:2EDDD50A-C6AB-40BD-97F2-4C92E0FD7C47, OS:17.0, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:arm64, id:B14C250F-1F5B-47F1-8333-2E731109DFD8, OS:17.2, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:B14C250F-1F5B-47F1-8333-2E731109DFD8, OS:17.2, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:arm64, id:806C94A9-08CB-4020-B413-85D1C1C562CC, OS:17.4, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:806C94A9-08CB-4020-B413-85D1C1C562CC, OS:17.4, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, arch:arm64, id:FF65D52E-94D5-47B0-AA07-F279F0B50881, OS:17.4, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:FF65D52E-94D5-47B0-AA07-F279F0B50881, OS:17.4, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:2F927F0B-3745-4058-98D8-B08ED3A963C2, OS:17.5, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:2F927F0B-3745-4058-98D8-B08ED3A963C2, OS:17.5, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:9B3859E8-7EF8-40F2-A227-0AA40275A818, OS:18.1, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:9B3859E8-7EF8-40F2-A227-0AA40275A818, OS:18.1, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:3A665E60-4810-491C-8318-7A6890E35741, OS:18.2, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:3A665E60-4810-491C-8318-7A6890E35741, OS:18.2, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:6CFD3FA8-92DB-48C1-968F-F2393C07259D, OS:18.5, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:x86_64, id:6CFD3FA8-92DB-48C1-968F-F2393C07259D, OS:18.5, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:D6BB0DF4-234E-4D10-A8DB-8004930866BA, OS:26.0, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:EEE5B322-6CE5-492F-8CD5-333697D1E1B2, OS:17.4, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:EEE5B322-6CE5-492F-8CD5-333697D1E1B2, OS:17.4, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:D56F83A0-E949-4A82-A485-4355B54096AF, OS:17.5, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:D56F83A0-E949-4A82-A485-4355B54096AF, OS:17.5, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:A9A97BA5-DB6A-424D-BC85-4432B64EEBA8, OS:18.1, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:A9A97BA5-DB6A-424D-BC85-4432B64EEBA8, OS:18.1, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:7EFF1C5F-A8BD-4502-B963-D59C762E4510, OS:18.2, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:7EFF1C5F-A8BD-4502-B963-D59C762E4510, OS:18.2, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:B19FABEB-5201-458D-9EEA-F3D8F8488CE8, OS:18.5, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:x86_64, id:B19FABEB-5201-458D-9EEA-F3D8F8488CE8, OS:18.5, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:C502AC6E-C2F2-4580-8D79-70446CCB8A77, OS:26.0, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:1DF98799-4D22-43A3-8368-2A7576E9A17B, OS:17.0, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:1DF98799-4D22-43A3-8368-2A7576E9A17B, OS:17.0, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:arm64, id:BAF61B1A-05B1-4C23-B7A2-B099860542FE, OS:17.2, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:BAF61B1A-05B1-4C23-B7A2-B099860542FE, OS:17.2, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:arm64, id:874C1D57-9034-4530-87D9-A124BD3CBD93, OS:17.4, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:874C1D57-9034-4530-87D9-A124BD3CBD93, OS:17.4, name:iPad Pro (11-inch) (4th generation) }
+{ platform:iOS Simulator, arch:arm64, id:938E77CA-8290-40C2-8F3E-A5E34EB876CE, OS:17.0, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:938E77CA-8290-40C2-8F3E-A5E34EB876CE, OS:17.0, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:E77B4536-C660-46B0-B059-0AB76953BC3E, OS:17.2, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:E77B4536-C660-46B0-B059-0AB76953BC3E, OS:17.2, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:D3A0DA0E-EF8D-4970-A64E-30B41AC75DE7, OS:17.4, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:D3A0DA0E-EF8D-4970-A64E-30B41AC75DE7, OS:17.4, name:iPad Pro (12.9-inch) (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:026E677F-0FB5-4072-96AE-2C336388D405, OS:17.4, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:026E677F-0FB5-4072-96AE-2C336388D405, OS:17.4, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:7D4DBA90-E303-43C4-BCBA-0D9092B4D23F, OS:17.5, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:7D4DBA90-E303-43C4-BCBA-0D9092B4D23F, OS:17.5, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:F4EC099C-34B6-4327-B9EA-946A73E23974, OS:18.1, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:F4EC099C-34B6-4327-B9EA-946A73E23974, OS:18.1, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:9EA97523-3E95-4EDE-8B6F-D44C4ECECB1C, OS:18.2, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:9EA97523-3E95-4EDE-8B6F-D44C4ECECB1C, OS:18.2, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:030DC962-4BD8-4631-9D3E-74C125ED813F, OS:18.5, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:030DC962-4BD8-4631-9D3E-74C125ED813F, OS:18.5, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:D944D325-B6E0-4E8D-ABC5-2A75BD30BEAC, OS:26.0, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:706C6D0D-AA0D-4CCE-9CEC-B02A328EEE3C, OS:17.4, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:706C6D0D-AA0D-4CCE-9CEC-B02A328EEE3C, OS:17.4, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:85DF36EA-766E-4188-8A1B-EA7CA2A64B79, OS:17.5, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:85DF36EA-766E-4188-8A1B-EA7CA2A64B79, OS:17.5, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:92484B6B-04AF-4306-B9E8-32F5ED9D60DC, OS:18.1, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:92484B6B-04AF-4306-B9E8-32F5ED9D60DC, OS:18.1, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:67D98E7F-5988-42BB-A625-EC33764E5DF1, OS:18.2, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:67D98E7F-5988-42BB-A625-EC33764E5DF1, OS:18.2, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:1C0B3326-FA42-4E51-849E-051AC907F22A, OS:18.5, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:1C0B3326-FA42-4E51-849E-051AC907F22A, OS:18.5, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:0B677414-81EF-424E-8DF8-912D1CF30D7F, OS:26.0, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:239AE0EA-5241-4038-9559-5D3F34D72815, OS:17.0, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:239AE0EA-5241-4038-9559-5D3F34D72815, OS:17.0, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:5A567D23-D834-425E-ABDB-36B2F66EB13F, OS:17.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:5A567D23-D834-425E-ABDB-36B2F66EB13F, OS:17.2, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:3F28CF05-446F-4B0D-9516-EED2F5C30B5B, OS:17.4, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:3F28CF05-446F-4B0D-9516-EED2F5C30B5B, OS:17.4, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:1FC6EFD7-BA33-404C-8E7C-5C16B4A08733, OS:17.5, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:1FC6EFD7-BA33-404C-8E7C-5C16B4A08733, OS:17.5, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, arch:arm64, id:53F1B12D-148E-497F-A910-234CB9991A67, OS:18.1, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:x86_64, id:53F1B12D-148E-497F-A910-234CB9991A67, OS:18.1, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:2485F6EA-CADE-4EB1-8375-7B1B7E1B3198, OS:18.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:x86_64, id:2485F6EA-CADE-4EB1-8375-7B1B7E1B3198, OS:18.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:E3B56181-E382-41F7-9436-E418A57803C3, OS:18.5, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:x86_64, id:E3B56181-E382-41F7-9436-E418A57803C3, OS:18.5, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:E9848A3C-8243-48CE-91C8-0CEF78F434C2, OS:26.0, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:9C7D405B-7FCA-41EC-BFAE-B55452D45561, OS:17.0, name:iPhone 15 }
+{ platform:iOS Simulator, arch:x86_64, id:9C7D405B-7FCA-41EC-BFAE-B55452D45561, OS:17.0, name:iPhone 15 }
+{ platform:iOS Simulator, arch:arm64, id:52DBD3FC-ECD4-4425-89EF-DF2EB5E91B69, OS:17.2, name:iPhone 15 }
+{ platform:iOS Simulator, arch:x86_64, id:52DBD3FC-ECD4-4425-89EF-DF2EB5E91B69, OS:17.2, name:iPhone 15 }
+{ platform:iOS Simulator, arch:arm64, id:23BAC375-DF2D-4C4F-8718-F129FEE4402D, OS:17.4, name:iPhone 15 }
+{ platform:iOS Simulator, arch:x86_64, id:23BAC375-DF2D-4C4F-8718-F129FEE4402D, OS:17.4, name:iPhone 15 }
+{ platform:iOS Simulator, arch:arm64, id:CA2B36D0-93A7-407C-ABB6-55879234E6FE, OS:17.5, name:iPhone 15 }
+{ platform:iOS Simulator, arch:x86_64, id:CA2B36D0-93A7-407C-ABB6-55879234E6FE, OS:17.5, name:iPhone 15 }
+{ platform:iOS Simulator, arch:arm64, id:F77A9E7F-DC20-4171-9D91-1131A54357B8, OS:17.0, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:F77A9E7F-DC20-4171-9D91-1131A54357B8, OS:17.0, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:arm64, id:D4229CFC-EDB9-469F-87D1-3D2FCC39E732, OS:17.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:D4229CFC-EDB9-469F-87D1-3D2FCC39E732, OS:17.2, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:arm64, id:2A3AEBFF-FEDD-4BA7-967E-6FA7FB253AC0, OS:17.4, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:2A3AEBFF-FEDD-4BA7-967E-6FA7FB253AC0, OS:17.4, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:arm64, id:97D164C9-FCFC-48B4-B137-3C4C60609368, OS:17.5, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:97D164C9-FCFC-48B4-B137-3C4C60609368, OS:17.5, name:iPhone 15 Plus }
+{ platform:iOS Simulator, arch:arm64, id:17503E94-D30A-4889-AB44-5E758B441AA4, OS:17.0, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:17503E94-D30A-4889-AB44-5E758B441AA4, OS:17.0, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:arm64, id:97751698-814A-4EBD-B04A-9A60E0995122, OS:17.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:97751698-814A-4EBD-B04A-9A60E0995122, OS:17.2, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:arm64, id:22F788F0-42D4-494E-976C-8F1099D7D3F0, OS:17.4, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:22F788F0-42D4-494E-976C-8F1099D7D3F0, OS:17.4, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:arm64, id:9110839E-0C0E-4F59-A536-7F503E03055C, OS:17.5, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:9110839E-0C0E-4F59-A536-7F503E03055C, OS:17.5, name:iPhone 15 Pro }
+{ platform:iOS Simulator, arch:arm64, id:B8ADA168-3129-48F0-A666-38BFD00340F1, OS:17.0, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:B8ADA168-3129-48F0-A666-38BFD00340F1, OS:17.0, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:09DDBF1A-58D5-43F3-868F-6B126C89E536, OS:17.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:09DDBF1A-58D5-43F3-868F-6B126C89E536, OS:17.2, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:E22FC60A-EE28-4262-95DB-2F76D1F94D81, OS:17.4, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:E22FC60A-EE28-4262-95DB-2F76D1F94D81, OS:17.4, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:2D2EE31D-F6EC-44F0-A517-B27345C8667F, OS:17.5, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:2D2EE31D-F6EC-44F0-A517-B27345C8667F, OS:17.5, name:iPhone 15 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:464750FA-3E3F-414B-B513-EFEC8DED89EC, OS:18.1, name:iPhone 16 }
+{ platform:iOS Simulator, arch:x86_64, id:464750FA-3E3F-414B-B513-EFEC8DED89EC, OS:18.1, name:iPhone 16 }
+{ platform:iOS Simulator, arch:arm64, id:80A1EC65-F474-4B0A-A823-F945A6ABF0B7, OS:18.2, name:iPhone 16 }
+{ platform:iOS Simulator, arch:x86_64, id:80A1EC65-F474-4B0A-A823-F945A6ABF0B7, OS:18.2, name:iPhone 16 }
+{ platform:iOS Simulator, arch:arm64, id:438F2E19-A929-46A5-B423-B1612CB72142, OS:18.5, name:iPhone 16 }
+{ platform:iOS Simulator, arch:x86_64, id:438F2E19-A929-46A5-B423-B1612CB72142, OS:18.5, name:iPhone 16 }
+{ platform:iOS Simulator, arch:arm64, id:A0FC2557-1C82-4CE7-97D5-50BA5694E4AC, OS:18.1, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:A0FC2557-1C82-4CE7-97D5-50BA5694E4AC, OS:18.1, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:arm64, id:C88DA86E-5EBD-47DD-B260-36B1A5E6447A, OS:18.2, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:C88DA86E-5EBD-47DD-B260-36B1A5E6447A, OS:18.2, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:arm64, id:4E3F6852-E7CB-45A3-85E0-C369A9C978D2, OS:18.5, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:4E3F6852-E7CB-45A3-85E0-C369A9C978D2, OS:18.5, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:arm64, id:94D2DA4C-DA5B-4276-BE6C-1B1FD571F7E9, OS:18.1, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:94D2DA4C-DA5B-4276-BE6C-1B1FD571F7E9, OS:18.1, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:arm64, id:DDF8E893-5E26-4A42-9708-174CAB5BAB97, OS:18.2, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:DDF8E893-5E26-4A42-9708-174CAB5BAB97, OS:18.2, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:arm64, id:475BB295-DF31-4C7E-B506-A93329DAC1FA, OS:18.5, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:475BB295-DF31-4C7E-B506-A93329DAC1FA, OS:18.5, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:arm64, id:5BA78271-4710-4FB5-BA0E-A087C37B0709, OS:18.1, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:5BA78271-4710-4FB5-BA0E-A087C37B0709, OS:18.1, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:45F318FF-D862-4358-ABD6-BDF83963738D, OS:18.2, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:45F318FF-D862-4358-ABD6-BDF83963738D, OS:18.2, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:DA31C81E-C814-4535-A9E7-55B314A0F254, OS:18.5, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:DA31C81E-C814-4535-A9E7-55B314A0F254, OS:18.5, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:161C0E1B-8E32-4CB4-BEAD-F9ED25BDA9B7, OS:18.5, name:iPhone 16e }
+{ platform:iOS Simulator, arch:x86_64, id:161C0E1B-8E32-4CB4-BEAD-F9ED25BDA9B7, OS:18.5, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:DB8537CA-D51B-44EF-9008-8E219E7B6410, OS:26.0, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:963EE17A-13AA-4A53-9F62-5A3F362449F1, OS:26.0, name:iPhone 17 }
+{ platform:iOS Simulator, arch:arm64, id:19A13AC5-8B00-4A9F-8DB7-9D9B1E66E5A1, OS:26.0, name:iPhone 17 Pro }
+{ platform:iOS Simulator, arch:arm64, id:F349BC7D-CA82-400F-800B-33582B2BBE9E, OS:26.0, name:iPhone 17 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:F4B0B4C8-9AA3-4D35-8C8C-A5066FF496D2, OS:26.0, name:iPhone Air }
+{ platform:iOS Simulator, arch:arm64, id:2599B287-56CD-45C8-B7C9-4BAAE69FD5DC, OS:17.0, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:2599B287-56CD-45C8-B7C9-4BAAE69FD5DC, OS:17.0, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:72CCAC58-6FFA-4C25-8174-AEA631AD7DE4, OS:17.2, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:72CCAC58-6FFA-4C25-8174-AEA631AD7DE4, OS:17.2, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:02537931-9F29-4E9F-AAC3-DE363EDE5F25, OS:17.4, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:02537931-9F29-4E9F-AAC3-DE363EDE5F25, OS:17.4, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:D4656625-456F-40B3-9CEE-7E8845F686E4, OS:17.5, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:D4656625-456F-40B3-9CEE-7E8845F686E4, OS:17.5, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:134B86B5-A6E3-4ED9-AAC1-C883D71DEC7B, OS:18.1, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:134B86B5-A6E3-4ED9-AAC1-C883D71DEC7B, OS:18.1, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:D168BF33-080A-40BB-9C44-CB7C658DF80F, OS:18.2, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:D168BF33-080A-40BB-9C44-CB7C658DF80F, OS:18.2, name:iPhone SE (3rd generation) }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'iOS' in project 'TDLibFramework' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -V
+
+Build description signature: 41235bdb005fd902d486d11e18994adf
+Build description path: /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/XCBuildData/41235bdb005fd902d486d11e18994adf.xcbuilddata
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/SwiftExplicitPrecompiledModules
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/ExplicitPrecompiledModules
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/EagerLinkingTBDs/Release-iphoneos
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/EagerLinkingTBDs/Release-iphoneos
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/TDLibFramework-c6ce82287b1d992eeacbf09470a4dc39-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/TDLibFramework-c6ce82287b1d992eeacbf09470a4dc39-VFS-iphoneos/all-product-headers.yaml
+
+CreateBuildDirectory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/TDLibFramework.xcodeproj
+    builtin-create-build-directory /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-own-target-headers.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-project-headers.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-project-headers.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.DependencyStaticMetadataFileList (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-all-target-headers.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-all-non-framework-target-headers.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.DependencyMetadataFileList (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-generated-files.hmap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-generated-files.hmap
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c
+
+Copy /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/module.modulemap /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/module.modulemap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/module.modulemap /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework.LinkFileList (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework.LinkFileList
+
+WriteAuxiliaryFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    write-file /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+-target arm64-apple-ios12.0 '-std=gnu11' -fmodules -gmodules '-fmodules-cache-path=/Users/christoph/Library/Developer/Xcode/DerivedData/ModuleCache.noindex' '-fmodule-name=TDLibFramework' -fpascal-strings -Os -fno-common -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk -g -iquote /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-generated-files.hmap -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-own-target-headers.hmap -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-all-non-framework-target-headers.hmap -ivfsoverlay /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/TDLibFramework-c6ce82287b1d992eeacbf09470a4dc39-VFS-iphoneos/all-product-headers.yaml -iquote /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/TDLibFramework-project-headers.hmap -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos/include -I/Users/christoph/Projects/ext/TDLibFramework-teamgram/builder -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources-normal/arm64 -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/arm64 -I/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources -F/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos -F/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib -F/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS/lib
+
+CpHeader /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers/td_json_client.h /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/td/telegram/td_json_client.h (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/td/telegram/td_json_client.h /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers
+
+CpHeader /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers/td_log.h /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/td/telegram/td_log.h (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/td/telegram/td_log.h /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers
+
+CpHeader /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers/td.h /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/td.h (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/td.h /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers
+
+CpHeader /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers/tdjson_export.h /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/tdjson_export.h (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/include/td/telegram/tdjson_export.h /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers
+
+SymLink /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos/TDLibFramework.framework ../../InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /bin/ln -sfh ../../InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos/TDLibFramework.framework
+
+MkDir /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /bin/mkdir -p /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Headers
+
+MkDir /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /bin/mkdir -p /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework
+
+Copy /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Modules/module.modulemap /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/module.modulemap (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/module.modulemap /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Modules
+
+ProcessInfoPlistFile /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Info.plist /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/Info.plist (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-infoPlistUtility /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder/xcodeproj/Info.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/Info.plist
+
+ScanDependencies /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    
+    Using response file: /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+    
+    builtin-ScanDependencies -o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.o.scan -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/christoph/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability @/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.d --serialize-diagnostics /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.dia -c /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c -o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.o
+
+CompileC /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    
+    Using response file: /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/christoph/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability @/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.d --serialize-diagnostics /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.dia -c /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/DerivedSources/TDLibFramework_vers.c -o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_vers.o
+
+Libtool /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/TDLibFramework normal (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk -L/Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/BuildProductsPath/Release-iphoneos -L/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/build/install-iOS/lib -L/Users/christoph/Projects/ext/TDLibFramework-teamgram/td/example/ios/third_party/openssl/iOS/lib -filelist /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework.LinkFileList -ltdactor -ltdapi -ltdclient -ltdcore -ltddb -ltde2e -ltdjson_private -ltdjson_static -ltdmtproto -ltdnet -ltdsqlite -ltdutils -lcrypto -lssl -dependency_info /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/IntermediateBuildFilesPath/TDLibFramework.build/Release-iphoneos/iOS.build/Objects-normal/arm64/TDLibFramework_libtool_dependency_info.dat -o /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/TDLibFramework
+
+Strip /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/TDLibFramework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -D -S -T /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework/TDLibFramework
+
+SetOwnerAndGroup christoph:staff /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /usr/sbin/chown -RH christoph:staff /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework
+
+SetMode u+w,go-w,a+rX /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /bin/chmod -RH u+w,go-w,a+rX /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework
+
+RegisterExecutionPolicyException /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    builtin-RegisterExecutionPolicyException /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework
+
+Touch /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework (in target 'iOS' from project 'TDLibFramework')
+    cd /Users/christoph/Projects/ext/TDLibFramework-teamgram/builder
+    /usr/bin/touch -c /Users/christoph/Library/Developer/Xcode/DerivedData/TDLibFramework-exogsshdlqviiscxflqxouizzuvg/Build/Intermediates.noindex/ArchiveIntermediates/iOS/InstallationBuildProductsLocation/Library/Frameworks/TDLibFramework.framework
+
+** ARCHIVE SUCCEEDED **
+
+[09:43:04] Done

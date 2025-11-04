@@ -1,8 +1,8 @@
-diff --git a/td/td/telegram/net/ConnectionCreator.cpp b/td/td/telegram/net/ConnectionCreator.cpp
-index 7c63f43f5..8dc6abc85 100644
---- a/td/td/telegram/net/ConnectionCreator.cpp
-+++ b/td/td/telegram/net/ConnectionCreator.cpp
-@@ -1365,11 +1365,8 @@ void ConnectionCreator::add_dc_options(int32 dc_id, const vector<DcOption> &opti
+diff --git a/td/telegram/net/ConnectionCreator.cpp b/td/telegram/net/ConnectionCreator.cpp
+index e56fe6a73..c1131615e 100644
+--- a/td/telegram/net/ConnectionCreator.cpp
++++ b/td/telegram/net/ConnectionCreator.cpp
+@@ -1365,13 +1365,8 @@ DcOptions ConnectionCreator::get_default_dc_options(bool is_test) {
    }
  #else
    if (is_test) {
@@ -18,11 +18,11 @@ index 7c63f43f5..8dc6abc85 100644
    } else {
      add_ip_ports(1, {"149.154.175.50"}, ports);
      add_ip_ports(2, {"149.154.167.51", "95.161.76.100"}, ports);
-diff --git a/td/td/telegram/net/PublicRsaKeySharedMain.cpp b/td/td/telegram/net/PublicRsaKeySharedMain.cpp
-index b7117ceb4..e0d087a71 100644
---- a/td/td/telegram/net/PublicRsaKeySharedMain.cpp
-+++ b/td/td/telegram/net/PublicRsaKeySharedMain.cpp
-@@ -21,6 +21,7 @@ std::shared_ptr<PublicRsaKeySharedMain> PublicRsaKeySharedMain::create(bool is_t
+diff --git a/td/telegram/net/PublicRsaKeySharedMain.cpp b/td/telegram/net/PublicRsaKeySharedMain.cpp
+index 91b6b82ba..6c319ed73 100644
+--- a/td/telegram/net/PublicRsaKeySharedMain.cpp
++++ b/td/telegram/net/PublicRsaKeySharedMain.cpp
+@@ -21,14 +21,15 @@ std::shared_ptr<PublicRsaKeySharedMain> PublicRsaKeySharedMain::create(bool is_t
    if (is_test) {
      static auto test_public_rsa_key = [&] {
        vector<RsaKey> keys;
