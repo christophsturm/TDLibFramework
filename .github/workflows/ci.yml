@@ -4,6 +4,8 @@ name: CI
 on:
   push:
     branches: [main]
+    tags:
+      - '*'
     paths:
       - "td" # on TDLib updates
       - ".github/workflows/**" # on CI updates
@@ -170,7 +172,11 @@ jobs:
           TDLIB_COMMIT_URL=${{ env.TDLIB_REPO }}/tree/$TDLIB_COMMIT
           echo "TDLIB_COMMIT_URL=$TDLIB_COMMIT_URL" >> $GITHUB_ENV
 
-          RELEASE_TAG=$TDLIB_VERSION-$TDLIB_COMMIT
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            RELEASE_TAG="${GITHUB_REF#refs/tags/}"
+          else
+            RELEASE_TAG="$TDLIB_VERSION-$TDLIB_COMMIT"
+          fi
           echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
 
       - name: Download XCFramework
@@ -199,10 +205,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/')
         run: |
           echo -e "XCFramework based on TDLib-${{ env.TDLIB_VERSION }} commit [${{ env.TDLIB_COMMIT }}](${{ env.TDLIB_COMMIT_URL }})\n\nZIP Checksum \`${{ env.ARTIFACT_CHECKSUM }}\`" > release.md
-          gh release create ${{ env.RELEASE_TAG }} ${{ env.ARTIFACT_PATH }} --target main --notes-file release.md
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            gh release create "${{ env.RELEASE_TAG }}" "${{ env.ARTIFACT_PATH }}" --notes-file release.md
+          else
+            gh release create "${{ env.RELEASE_TAG }}" "${{ env.ARTIFACT_PATH }}" --target main --notes-file release.md
+          fi
           rm release.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
