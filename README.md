@@ -107,6 +107,22 @@ td_send(clientId, dictToJSONString(["@type": "Close"] as [String: String]))
 
 You can find latest releases at [Releases](https://github.com/Swiftgram/TDLibFramework/releases) page.
 
+## Teamgram Builds & TDLibKit Integration
+
+The `main` branch publishes Teamgram-patched TDLib binaries automatically. Every successful CI run produces a release tagged as
+`<tdlib-version>-<td-commit>`, for example `1.8.47-0ca38f15`, containing `TDLibFramework.zip`.
+
+### Use the hosted XCFramework in TDLibKit
+
+1. Grab the latest Teamgram release from the [releases page](https://github.com/christophsturm/TDLibFramework/releases).  
+   Example URL: `https://github.com/christophsturm/TDLibFramework/releases/download/1.8.47-0ca38f15/TDLibFramework.zip`
+2. Copy the checksum from the release notes (CI includes it automatically). You can verify it locally with  
+   `swift package compute-checksum TDLibFramework.zip` if desired.
+3. Update TDLibKit’s `Package.swift` binary target to use the release URL and checksum, and mirror the same values in `versions.json`.
+4. Commit the TDLibKit changes and push; consumers will receive the Teamgram-enabled XCFramework automatically.
+
+Whenever you push to `main` (or cut a tag), CI rebuilds and republishes the archive so TDLibKit can stay in sync with the latest Teamgram layer.
+
 ## Build
 
 You can find more about build process in [Github Actions](.github/workflows/ci.yml) file.
